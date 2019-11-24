@@ -12,8 +12,8 @@ class Song
   end
 
   def create(song)
-    @song = song 
-    @@all << song 
+    @song = song
+    @@all << song
     @song
   end
 
