@@ -18,4 +18,8 @@ class Song
     #binding.pry
   end
 
+  def new_by_name(name)
+    @name = name
+  end
+
 end
