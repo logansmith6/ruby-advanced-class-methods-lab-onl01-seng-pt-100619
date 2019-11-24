@@ -12,10 +12,11 @@ class Song
   end
 
   def self.create(song)
+    binding.pry
     @song = song
     @@all << @song
 
-binding.pry
+
   end
 
 end
