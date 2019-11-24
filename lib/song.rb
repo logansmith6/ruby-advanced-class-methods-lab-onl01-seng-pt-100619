@@ -15,6 +15,7 @@ class Song
     @song = song
     @@all << song
     song
+    binding.pry
   end
-binding.pry
+
 end
