@@ -1,6 +1,6 @@
 require 'pry'
 class Song
-  attr_accessor :name, :artist_name, :named 
+  attr_accessor :name, :artist_name, :named
   @@all = []
 
   def self.all
@@ -22,7 +22,7 @@ class Song
     @named = self.new
     @named.name = song
     @named
-    
+
 
   end
 
