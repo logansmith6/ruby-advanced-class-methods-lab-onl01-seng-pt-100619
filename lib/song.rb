@@ -42,7 +42,7 @@ class Song
 
   def find_or_create_by_name(song)
 
-    if find_by_name(song) == nil 
+    if find_by_name(song) == nil
       create_by_name(song)
     else
       find_by_name(song)
