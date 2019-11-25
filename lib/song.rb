@@ -37,7 +37,7 @@ class Song
         if song == names
           temp_name = names
         end
-
+binding.pry
     end
 temp_name
   end
