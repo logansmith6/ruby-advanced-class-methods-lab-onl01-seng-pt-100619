@@ -36,10 +36,11 @@ class Song
 
         if song == names.name
           temp_name = names
+          temp_name
         end
 #binding.pry
     end
-temp_name
+
   end
 
 end
