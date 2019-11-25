@@ -49,4 +49,9 @@ class Song
       end
     end
 
+    def alphabetical
+      @@all.sort
+    end
+
+
 end
