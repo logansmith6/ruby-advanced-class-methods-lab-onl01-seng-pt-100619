@@ -54,7 +54,7 @@ class Song
     end
 
     def self.new_from_filename(string)
-      string.split(" - ").split(".mp3")
+      string.split(" - ")
       binding.pry
     end
 
