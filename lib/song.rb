@@ -57,9 +57,9 @@ class Song
       temp_array = []
       temp_array = string.split(" - ")
       temp_string = temp_array[1].split(".mp3")
-      testsong = Song.new 
+      testsong = Song.new
       testsong.name = temp_array[0]
-      
+
       binding.pry
     end
 
