@@ -57,7 +57,7 @@ class Song
       temp_array = []
       temp_array = string.split(" - ")
       temp_string = temp_array[1].split(".mp3")
-      testsong = self.new
+      testsong = Song.new
       testsong.name = temp_array[1]
       testsong.artist = temp_array[0]
 
