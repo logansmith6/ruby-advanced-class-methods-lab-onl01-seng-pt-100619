@@ -53,5 +53,8 @@ class Song
       @@all.sort_by {|az| az.name}
     end
 
+    def self.new_from_filename(string)
+      string.split(" - ")
+    end
 
 end
