@@ -18,9 +18,9 @@ class Song
     #binding.pry
   end
 
-  def self.new_by_name(name)
+  def self.new_by_name(names)
     test = self.new
-    test.name = name
+    test.name = names
     test.name
   end
 
