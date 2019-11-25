@@ -33,10 +33,10 @@ class Song
   def find_by_name(song)
     @@all.each do |names|
         if song == names
-          @named.name 
-          
+          @named.name
+
     end
-    
+
   end
 
 end
