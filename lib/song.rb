@@ -76,7 +76,7 @@ class Song
 
     def self.destroy_all
       @@all.each do |erase|
-        erase = ""
+        erase = nil 
       end
     end
 
