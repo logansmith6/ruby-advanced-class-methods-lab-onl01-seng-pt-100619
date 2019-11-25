@@ -36,7 +36,7 @@ class Song
         if song == names
           temp_name = names
         end
-        
+
     end
 temp_name
   end
