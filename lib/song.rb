@@ -61,7 +61,7 @@ class Song
       testsong.name = temp_array[1]
       testsong.artist_name = temp_array[0]
 
-      binding.pry
+      #binding.pry
     end
 
 end
