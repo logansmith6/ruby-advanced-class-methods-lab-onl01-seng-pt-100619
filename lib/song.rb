@@ -28,6 +28,7 @@ class Song
     @named = self.new
     @named.name = song
     @@all << song
+    song
     @named
   end
 
