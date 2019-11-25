@@ -61,8 +61,17 @@ class Song
       testsong.name = temp_string
       testsong.artist_name = temp_array[0]
       testsong
-
       #binding.pry
+    end
+
+    def self.create_from_filename(string)
+      temp_array = []
+      temp_array = string.split(" - ")
+      temp_string = temp_array[1].split(".mp3").join
+      testsong = Song.create
+      testsong.name = temp_string
+      testsong.artist_name = temp_array[0]
+      testsong
     end
 
 end
