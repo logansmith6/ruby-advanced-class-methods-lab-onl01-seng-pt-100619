@@ -60,7 +60,7 @@ class Song
       testsong = Song.new
       testsong.name = temp_array[1]
       testsong.artist_name = temp_array[0]
-      testsong 
+      testsong
 
       #binding.pry
     end
