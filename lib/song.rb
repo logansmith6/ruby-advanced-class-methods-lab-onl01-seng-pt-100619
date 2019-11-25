@@ -34,7 +34,7 @@ class Song
     temp_name = ""
     @@all.each do |names|
 
-        if song == names.name 
+        if song == names.name
           temp_name = names
         end
 binding.pry
