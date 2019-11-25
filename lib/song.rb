@@ -31,16 +31,13 @@ class Song
   end
 
   def self.find_by_name(song)
-    temp_name = ""
+    temp_name = nil 
     @@all.each do |names|
-
         if song == names.name
           temp_name = names
-
         end
-#binding.pry
     end
-temp_name
+    temp_name
   end
 
 end
